@@ -1,0 +1,47 @@
+body {
+    background: url("../img/Forma\ 1.svg") no-repeat, url("../img/Forma\ 2.svg") 100% 199px no-repeat, url("../img/Ilustração\ 1.svg") 35% 470px no-repeat;
+    position: absolute;
+}
+
+.logo {
+    text-align: center;
+    padding: 2em 0 0 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.container__titulo {
+    color: var(--branco);
+    font-family: var(--fonte-secundaria);
+    font-size: 26px;
+    font-weight: 500;
+    padding: 0.5em 0;
+}
+
+.container__texto {
+    color: var(--branco);
+    padding: 1em 4em;
+    line-height: 24px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botoes__ancora {
+    align-self: center;
+    background-color: var(--terciaria);
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    color: var(--branco);
+    font-weight: 600;
+    padding: 0.8em 0.3em;
+    margin-bottom: 1em;
+    min-width: 180px;
+    text-align: center;
+    text-decoration: none;
+}
