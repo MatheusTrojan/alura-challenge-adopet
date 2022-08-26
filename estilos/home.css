@@ -1,6 +1,8 @@
 body {
-    background: url("../img/Forma\ 1.svg") no-repeat, url("../img/Forma\ 2.svg") 100% 199px no-repeat, url("../img/Ilustração\ 1.svg") 35% 470px no-repeat;
-    position: absolute;
+    background: url("../img/Forma\ 1.svg"), url("../img/Forma\ 2.svg"), url("../img/Ilustração\ 1.svg");
+    background-repeat: no-repeat;
+    background-position: top left, center right, bottom 5.375rem center;
+    min-height: 100vh;
 }
 
 .logo {
