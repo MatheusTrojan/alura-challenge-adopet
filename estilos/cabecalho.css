@@ -7,3 +7,10 @@
 .cabecalho__imagem {
     padding-left: 3em;
 }
+
+.cabecalho__patas {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+

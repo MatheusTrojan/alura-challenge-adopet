@@ -4,8 +4,9 @@
     background: var(--secundaria);
     width: 100vw;
     position: absolute;
-    bottom: 0;
+    bottom: -4rem;
     left: 0;
+    box-sizing: border-box;
 }    
 
 .rodape__texto {

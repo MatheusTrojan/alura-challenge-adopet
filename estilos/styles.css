@@ -1,5 +1,4 @@
 @import url("../estilos/cabecalho.css");
-@import url("../estilos/home.css");
 @import url("../estilos/rodape.css");
 
 :root {
@@ -18,7 +17,6 @@
 }
 
 body {
-    background-color: var(--primaria);
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;

@@ -1,7 +1,8 @@
 body {
     background: url("../img/Forma\ 1.svg"), url("../img/Forma\ 2.svg"), url("../img/Ilustração\ 1.svg");
     background-repeat: no-repeat;
-    background-position: top left, center right, bottom 5.375rem center;
+    background-position: top left, center right, bottom 3rem center;
+    background-color: var(--primaria);
     min-height: 100vh;
 }
 
