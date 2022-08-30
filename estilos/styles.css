@@ -14,12 +14,12 @@
     --detalhes-escuro: #737380;
     --detalhes-medio: #BCBCBC;
     --detalhes-claro: #F7F7F7;
+
 }
 
 body {
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
-    height: 100%;
 }
 

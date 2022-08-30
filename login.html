@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="estilos/reset.css">
+    <link rel="stylesheet" href="estilos/styles.css">
+    <link rel="stylesheet" href="estilos/cadastro.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container__geral">
+        <header class="cabecalho">
+            <div class="cabecalho__botoes">
+                <a href="index.html" class="cabecalho__link">
+                    <img src="img/Casa.svg" class="cabecalho__imagem" alt="Ícone página inicial">
+                </a>
+                <a href="#" class="cabecalho__link">
+                    <img src="img/Mensagens.svg" class="cabecalho__imagem" alt="Ícone mensagens">
+                </a>
+            </div>
+            <img src="img/Patas.svg" alt="Patinhas" class="cabecalho__patas">
+        </header>
+
+        <div class="cadastro">
+            <img src="img/Logo-azul.svg" alt="Logo da Adopet" class="cadastro__logo">
+            <p class="cadastro-login__texto">Já tem conta? Faça seu login:</p>
+        </div>
+
+        <form class="cadastro__formulario">
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="Insira seu email">
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" class="input-padrao senha" required placeholder="Insira sua senha">
+
+            <p class="cadastro-login__senha">Esqueci minha senha</p>
+
+            <input type="submit" value="Entrar" class="enviar">
+
+            <div>
+                <img src="img/Forma 2.svg" class="imagem-fundo">
+            </div>
+        </form>
+    </div>
+    <footer class="rodape">
+        <p class="rodape__texto">2022 - Desenvolvido por Alura.</p>
+    </footer>
+    
+</body>
+</html>

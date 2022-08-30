@@ -1,16 +1,14 @@
+.container__geral {
+    min-height: calc(100vh - 100px);
+}
+
 .rodape {
-    display: flex;
-    text-align: center;
+    height: 100px;
     background: var(--secundaria);
-    width: 100vw;
-    position: absolute;
-    bottom: -4rem;
-    left: 0;
-    box-sizing: border-box;
+    text-align: center;
 }    
 
 .rodape__texto {
     color: var(--branco);
     padding: 2.5em 0;
-    margin: 0 auto;
 }
