@@ -1,50 +1,58 @@
-body {
-    background: url("../img/Forma\ 1.svg"), url("../img/Forma\ 2.svg"), url("../img/Ilustração\ 1.svg");
-    background-repeat: no-repeat;
-    background-position: 0% 0%, 100% 40%, 50% 87%;
-    background-color: var(--primaria);
-    min-height: 100vh;
-}
-
-.logo {
-    text-align: center;
-    padding: 2em 0 0 0;
-}
-
-.container {
+.home__titulo {
+    color: var(--primaria);
+    line-height: 20px;
+    margin: 2em 5em;
     text-align: center;
 }
 
-.container__titulo {
-    color: var(--branco);
-    font-family: var(--fonte-secundaria);
-    font-size: 26px;
-    font-weight: 500;
-    padding: 0.5em 0;
-}
-
-.container__texto {
-    color: var(--branco);
-    padding: 1em 4em;
-    line-height: 24px;
-}
-
-.botoes {
+.cartoes {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-around;
+    gap: 1em;
+    padding: 1em 0;
 }
 
-.botoes__ancora {
-    align-self: center;
-    background-color: var(--terciaria);
-    border-radius: 6px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
-    color: var(--branco);
+.cartoes__animais {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding: 1em 2em;
+    background: var(--detalhes-claro);
+    width: 100%;
+}
+
+.cartoes__conteudo {
+    margin-left: 1.5em;
+    width: 100%;
+}
+
+.cartoes__nome {
+    align-self: flex-start;
+    color: var(--primaria);
     font-weight: 600;
-    padding: 0.8em 0.3em;
-    margin-bottom: 1em;
-    min-width: 180px;
+    margin-bottom: 0.5em;
+} 
+
+.cartoes__info {
+    color: var(--cinza-escuro);
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0.2em 0;
+}
+
+.cartoes__local {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 2.5em;
+}
+
+.cartoes__contato {
+    background-image: url("../img/ícone_mensagem.svg");
+    background-repeat: no-repeat;
+    background-size: 16px;
+    font-size: 10px;
+    line-height: 16px;
+    margin-top: 1em;
     text-align: center;
-    text-decoration: none;
 }

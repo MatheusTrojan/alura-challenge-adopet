@@ -1,11 +1,17 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+}
+
 .cabecalho__botoes {
     display: flex;
     align-items: center;
     margin: 3em 0;
+    width: 100%;
 }
 
 .cabecalho__imagem {
-    padding-left: 3em;
+    margin-left: 3em;
 }
 
 .cabecalho__patas {
@@ -14,3 +20,6 @@
     right: 0;
 }
 
+.cabecalho__usuario--imagem {  
+    margin-right: 3.5em;
+}
