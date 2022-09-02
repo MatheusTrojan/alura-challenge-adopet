@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mensagens</title>
+
+        <link rel="stylesheet" href="estilos/reset.css">
+        <link rel="stylesheet" href="estilos/styles.css">
+        <link rel="stylesheet" href="estilos/cadastro.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
+    </head>
+
+    <body>   
+        <div class="container__geral">
+            <header class="cabecalho">
+                <div class="cabecalho__botoes">
+                    <a href="index.html">
+                        <img src="img/Casa.svg" class="cabecalho__imagem" alt="Ícone página inicial">
+                    </a>
+                    <a href="mensagens.html">
+                        <img src="img/Mensagens.svg" class="cabecalho__imagem" alt="Ícone mensagens">
+                    </a>
+                </div>
+                <div class="cabecalho__usuario">
+                    <a href="#">
+                        <img src="img/Usuário.svg" alt="Ícone do usuário" class="cabecalho__imagem cabecalho__usuario--imagem">
+                    </a>
+                </div>
+            </header>
+
+            <section class="mensagens__container">
+                <p class="mensagens__texto">Envie uma mensagem para a pessoa ou instituição que está cuidando do animal:</p>
+
+                <form class="mensagens__formulario">
+
+                    <label for="nomecompleto">Nome</label>
+                    <input type="text" id="nomecompleto" class="input__mensagens" required placeholder="Insira seu nome completo">
+    
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" class="input__mensagens" required placeholder="Insira seu telefone e/ou whatsapp">
+    
+                    <label for="nome-animal">Nome do animal</label>
+                    <input type="text" id="nome-animal" class="input__mensagens" required placeholder="Por qual animal você se interessou?">
+
+                    <label for="mensagem">Mensagem</label>
+                    <input type="text" id="mensagem" class="input__mensagens input__mensagens--texto" required placeholder="Escreva sua mensagem.">
+
+                    <input type="submit" value="Enviar" class="enviar">
+                </form>
+
+            </section>
+        </div>
+        <footer class="rodape">
+            <p class="rodape__texto">2022 - Desenvolvido por Alura.</p>
+        </footer>
+    </body>
+</html>
